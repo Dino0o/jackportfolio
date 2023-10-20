@@ -1,0 +1,71 @@
+import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPython, faRProject } from '@fortawesome/free-brands-svg-icons'
+import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+
+export default function Home() {
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-between pt-24" style={{ backgroundImage: `url('/mountain.jpg')` }}>
+      <div className="border-4 border-r-2 border-white bg-white w-5/6 rounded-lg">
+      <br/>
+        <h1 className='text-center font-medium text-3xl'>Hello!</h1>
+        <br/>
+        <p className='text-xl pl-5 font-bold'>Background:</p>
+        <br/>
+        <p className='pl-5 pr-5 indent-8'>
+        My name is Jack DeGesero. I am 20 years old, and a student at Montclair State University pursuiting a BS in Data Science with a Mathematics minor.
+        Currently, I work as a Desktop Technician at my University. I was promoted from the role of Phone Support Technician after working
+        there for about a year. The reason I chose Data Science as my major is because data-driven insights are vital to making informed decisions,
+        improving operations, and fueling innovation. While working as a mananger at my former place of employment, Ralph's Italian Ices, I was
+        exposed to the applications of utilizing data in refining operations. This was accomplished by analyzing sales data to track and calculate average 
+        product turnover. From this, I was able to find the target inventory contigent on our storage capacity. Overall, the position exposed me to the
+        manipulation of tabular data, and that's when I fell in love with data.
+        </p>
+        <br/>
+        <br/>
+        <br/>
+        <p className='text-xl text-center pl-5 font-bold'>Languages I use for analysis:</p>
+        <br/>
+        <div className='text flex space-x-4 flex justify-center items-center h-full'>
+        <FontAwesomeIcon icon={faPython} className='fa_icon'/>
+        <FontAwesomeIcon icon={faRProject} className='fa_icon'/>
+        <FontAwesomeIcon icon={faDatabase} className='fa_icon'/>
+
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <p className='text-xl pl-5 font-bold'>Certifications & Awards:</p>
+        <p className='pl-5 pr-5 indent-8'>
+        </p>
+        <br/>
+        <div className='pl-5 pr-5'>
+        <ul style={{listStyleType: 'square'}}>
+          <li>Industry Certified in Introductory JavaScript at Microsoft (2019)</li><br/>
+          <li>Dean's List at Montclair State University - Fall 2021</li><br/>
+          <li>Dean's List at Montclair State University - Spring 2022</li><br/>
+          <li>Dean's List at Montclair State University - Fall 2022</li><br/>
+          <li>Dean's List at Montclair State University - Spring 2023</li><br/>
+          <li>Dean's List at Montclair State University - Summer 2023</li><br/>
+        </ul>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <p className='text-xl pl-5 font-bold'>Contact:</p>
+        <br/>
+        <div className='pl-5 pr-5 text-sky-500'>
+        <ul style={{listStyleType: 'disc'}}>
+          <li><a href="mailto:degeserojd@gmail.com">Send me an email</a></li>
+          <br/>
+          <li><a href="https://github.com/Dino0o" target="_blank">Check out my Git</a></li>
+          <br/>
+          <li><a href="https://www.linkedin.com/in/jack-degesero/" target="_blank">Connect on LinkedIn</a></li>
+          <br/>
+        </ul>
+        </div>
+        <br/>
+      </div>
+    </main>
+  )
+}
