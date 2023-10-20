@@ -11,22 +11,22 @@ export default function Document() {
   
             <h1 className='m-2 mt-4'><b>Forecasting Time Series with ARIMA</b></h1>
             <br/>
-            <p className='m-2 indent-4'>In contemporary data analysis, time series' appear often regardless of the
+            <p className='m-2 indent-4'>In contemporary data analysis, time series&apos; appear often regardless of the
             data being measured. From a time series, by using statistics, you can forceast future values using an ARIMA model. ARIMA 
             is an acronym and stands for AutoRegressive Integrated Moving Average. Essentially, the model will forecast future values based 
             on recorded historical values after accounting for a few input variables, all derived from the same time series. The variables ARIMA is composed of is as follows:</p>
             <br/>
             <ul className="pl-14" style={{listStyleType: 'square'}}> 
                 <li>
-                AutoRegression - often denoted as 'p', this variable is the number of statistically significant lag times measured from the Partial AutoCorrelation Plot (pacf). 
+                AutoRegression - often denoted as &apos;p&apos;, this variable is the number of statistically significant lag times measured from the Partial AutoCorrelation Plot (pacf). 
                 </li>
                 <br/>
                 <li>
-                Integration - often denoted as 'd', this variable will make the data being examined more stationary. Analysis can not provide much insight for us when there is a lot of unaccounted noise in our data. This makes our analysis more reliable.
+                Integration - often denoted as &apos;d&apos;, this variable will make the data being examined more stationary. Analysis can not provide much insight for us when there is a lot of unaccounted noise in our data. This makes our analysis more reliable.
                 </li>
                 <br/>
                 <li>
-                Moving Average - often denoted with 'q', measured from an AutoCorrelation plot, this accounts for the number of previously forecasted error values which occurred. This will help us improve the model to account for discrepancies between the predicted values and the actual values which the model is trained on.
+                Moving Average - often denoted with &apos;q&apos;, measured from an AutoCorrelation plot, this accounts for the number of previously forecasted error values which occurred. This will help us improve the model to account for discrepancies between the predicted values and the actual values which the model is trained on.
                 </li>
             </ul>
             <br/>
@@ -74,7 +74,7 @@ export default function Document() {
             </div>
             <br/>
             <p className='m-2'>
-            Unfortunately, this model isn't entirely accurate. Since ARIMA models are built on only historical data, it fails to account for Macro variables (a.k.a. Black Swans). 
+            Unfortunately, this model isn&apos;t entirely accurate. Since ARIMA models are built on only historical data, it fails to account for Macro variables (a.k.a. Black Swans). 
             If we compare our forecast to what happened historically, we can see a notable difference. See the dates for AMZN stock in Jan 2023 below:</p>
             
             
@@ -89,7 +89,7 @@ export default function Document() {
 
             <p className='m-2'>
             Some events that this discrepancies could be accredited to are Macro related. For example, in January of 2023, Amazon (and other tech companies) did some restructuring and laid off about 18,000 workers; also, they pushed out new features for their premium subscription service, Amazon Prime. 
-            Coming into a new year, there could have also been general buzz about the stock, driving its price up. All things that historical data can't reflect.
+            Coming into a new year, there could have also been general buzz about the stock, driving its price up. All things that historical data can&apos;t reflect.
             <br/>
             <br/>
             Overall, ARIMA models may not be accurate for long-term trading, but it can be a valuable factor to consider when doing short-term analysis.
