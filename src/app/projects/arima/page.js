@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Document() {
     return (
       <main
-        className="flex min-h-screen flex-col items-center justify-between pt-24"
+        className="flex min-h-screen flex-col items-center justify-between pt-24 text-black"
         style={{ backgroundImage: `url('/mountain.jpg')` }}
       >
         <div className="bg-white w-5/6 rounded-lg">
@@ -82,7 +82,7 @@ export default function Document() {
               <Image src="/AMZNJan2023.png" alt="Jan2023Data" width={450} height={512} />
             </div>
             
-              <div className="text-sm">
+              <div className="text-sm m-2">
               (Sourced from: <Link className="text-blue-600" href="https://www.marketwatch.com/investing/stock/amzn/charts?mod=mw_quote_advanced" target="_blank">Market Watch</Link>)
               </div>
             <br/>

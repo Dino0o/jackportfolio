@@ -29,9 +29,9 @@ export default function Home() {
         <div className='text-xl text-center pl-5 font-bold'>Languages I use for analysis:</div>
         <br/>
         <div className='text flex space-x-4 flex justify-center items-center h-full'>
-        <FontAwesomeIcon icon={faPython} className='fa_icon'/>
-        <FontAwesomeIcon icon={faRProject} className='fa_icon'/>
-        <FontAwesomeIcon icon={faDatabase} className='fa_icon'/>
+        <FontAwesomeIcon icon={faPython} className='fa_icon p-2'/>
+        <FontAwesomeIcon icon={faRProject} className='fa_icon p-2'/>
+        <FontAwesomeIcon icon={faDatabase} className='fa_icon p-2'/>
 
         </div>
         <br/>
