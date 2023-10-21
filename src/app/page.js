@@ -8,11 +8,11 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between pt-24" style={{ backgroundImage: `url('/mountain.jpg')` }}>
       <div className="border-4 border-r-2 border-white bg-white w-5/6 rounded-lg">
       <br/>
-        <h1 className='text-center font-medium text-3xl'>Hello!</h1>
+        <div className='text-center font-medium text-3xl'>Hello!</div>
         <br/>
-        <p className='text-xl pl-5 font-bold'>Background:</p>
+        <div className='text-xl pl-5 font-bold'>Background:</div>
         <br/>
-        <p className='pl-5 pr-5 indent-8'>
+        <div className='pl-5 pr-5 indent-8'>
         My name is Jack DeGesero. I am 20 years old, and a student at Montclair State University pursuiting a BS in Data Science with a Mathematics minor.
         Currently, I work as a Desktop Technician at my University. I was promoted from the role of Phone Support Technician after working
         there for about a year. The reason I chose Data Science as my major is because data-driven insights are vital to making informed decisions,
@@ -20,11 +20,11 @@ export default function Home() {
         exposed to the applications of utilizing data in refining operations. This was accomplished by analyzing sales data to track and calculate average 
         product turnover. From this, I was able to find the target inventory contigent on our storage capacity. Overall, the position exposed me to the
         manipulation of tabular data, and that&apos;s when I fell in love with data.
-        </p>
+        </div>
         <br/>
         <br/>
         <br/>
-        <p className='text-xl text-center pl-5 font-bold'>Languages I use for analysis:</p>
+        <div className='text-xl text-center pl-5 font-bold'>Languages I use for analysis:</div>
         <br/>
         <div className='text flex space-x-4 flex justify-center items-center h-full'>
         <FontAwesomeIcon icon={faPython} className='fa_icon'/>
@@ -35,9 +35,7 @@ export default function Home() {
         <br/>
         <br/>
         <br/>
-        <p className='text-xl pl-5 font-bold'>Certifications & Awards:</p>
-        <p className='pl-5 pr-5 indent-8'>
-        </p>
+        <div className='text-xl pl-5 font-bold'>Certifications & Awards:</div>
         <br/>
         <div className='pl-5 pr-5'>
         <ul style={{listStyleType: 'square'}}>
