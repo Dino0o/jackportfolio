@@ -1,11 +1,12 @@
 import Image from 'next/image'
-import RootLayout from './layout'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPython, faRProject } from '@fortawesome/free-brands-svg-icons'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 
+
 export default function Home() {
   return (
+    <RootLayout>
     <main className="flex min-h-screen flex-col items-center justify-between pt-24" style={{ backgroundImage: `url('/mountain.jpg')` }}>
       <div className="border-4 border-r-2 border-white bg-white w-5/6 rounded-lg">
       <br/>
@@ -66,5 +67,6 @@ export default function Home() {
         <br/>
       </div>
     </main>
+    </RootLayout>
   )
 }
