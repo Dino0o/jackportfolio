@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import Link from 'next/link'
+
 
 export default function Document() {
     return (
@@ -33,7 +35,8 @@ export default function Document() {
             See the development, documentation, and code dump below:
             </p>
             <br/>
-            <embed src="/appdesignsql.pdf" width="100%" height="900" type="application/pdf" />
+            <Link className="text-blue-600 m-2" href="/appdesignJD.pdf" target="_blank">On mobile? Download the pdf!</Link>
+            <embed src="/appdesignJD.pdf" width="100%" height="900" type="application/pdf" />
             <br/>
         </div>
       </main>

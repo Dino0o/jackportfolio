@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import RootLayout from './layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPython, faRProject } from '@fortawesome/free-brands-svg-icons'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
@@ -50,20 +49,7 @@ export default function Home() {
         </ul>
         </div>
         <br/>
-        <br/>
-        <br/>
-        <p className='text-xl pl-5 font-bold'>Contact:</p>
-        <br/>
-        <div className='pl-5 pr-5 text-sky-500'>
-        <ul style={{listStyleType: 'disc'}}>
-          <li><a href="mailto:degeserojd@gmail.com">Send me an email</a></li>
-          <br/>
-          <li><a href="https://github.com/Dino0o" target="_blank">Check out my Git</a></li>
-          <br/>
-          <li><a href="https://www.linkedin.com/in/jack-degesero/" target="_blank">Connect on LinkedIn</a></li>
-          <br/>
-        </ul>
-        </div>
+        
         <br/>
       </div>
     </main>
