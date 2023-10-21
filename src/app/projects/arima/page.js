@@ -74,7 +74,7 @@ export default function Document() {
             </div>
             <br/>
             <p className='m-2'>
-            Unfortunately, this model isn&apos;t entirely accurate. Since ARIMA models are built on only historical data, it fails to account for Macro variables (a.k.a. Black Swans). 
+            Unfortunately, this model isn&apos;t entirely accurate. Since ARIMA models are built on only historical data, it fails to account for macroeconomics (e.g. Black Swans). 
             If we compare our forecast to what happened historically, we can see a notable difference. See the dates for AMZN stock in Jan 2023 below:</p>
             
             
@@ -88,7 +88,7 @@ export default function Document() {
             <br/>
 
             <p className='m-2'>
-            Some events that these discrepancies could be accredited to are Macro related. For example, in January of 2023, Amazon (and other tech companies) did some restructuring and laid off about 18,000 workers; also, they pushed out new features for their premium subscription service, Amazon Prime. 
+            Some events that these discrepancies could be accredited to are macro related. For example, in January of 2023, Amazon (and other tech companies) did some restructuring and laid off about 18,000 workers; also, they pushed out new features for their premium subscription service, Amazon Prime. 
             Coming into a new year, and given this news, there was seemingly a lot of buzz about the stock, driving its price up. All things that historical data can&apos;t reflect.
             <br/>
             <br/>
