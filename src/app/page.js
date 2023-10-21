@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import RootLayout from './RootLayout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPython, faRProject } from '@fortawesome/free-brands-svg-icons'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
