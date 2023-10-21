@@ -14,7 +14,7 @@ export default function Home() {
         <div className='text-xl pl-5 font-bold'>Background:</div>
         <br/>
         <div className='pl-5 pr-5 indent-8'>
-        My name is Jack DeGesero. I am 20 years old, and a student at Montclair State University pursuiting a BS in Data Science with a Mathematics minor.
+        My name is Jack DeGesero. I am 20 years old, and a student at Montclair State University pursuing a BS in Data Science with a Mathematics minor.
         Currently, I work as a Desktop Technician at my University. I was promoted from the role of Phone Support Technician after working
         there for about a year. The reason I chose Data Science as my major is because data-driven insights are vital to making informed decisions,
         improving operations, and fueling innovation. While working as a mananger at my former place of employment, Ralph&apos;s Italian Ices, I was
