@@ -30,7 +30,7 @@ export default function Document() {
                 </li>
             </ul>
             <br/>
-            <p className='m-2'>In this example, we will be looking at Amazon stock price from 2007 to 2022, determining p d q, then we will try to forecast Jan 2023 and compare it to historical data. Here is an preview of the data:</p>
+            <p className='m-2'>In this example, we will be looking at Amazon stock price from 2007 to 2022, determining p d q, then we will try to forecast Jan 2023 and compare it to historical data. Here is a preview of the data:</p>
             <br/>
   
             <div className="flex items-center justify-center">
@@ -88,8 +88,8 @@ export default function Document() {
             <br/>
 
             <p className='m-2'>
-            Some events that this discrepancies could be accredited to are Macro related. For example, in January of 2023, Amazon (and other tech companies) did some restructuring and laid off about 18,000 workers; also, they pushed out new features for their premium subscription service, Amazon Prime. 
-            Coming into a new year, there could have also been general buzz about the stock, driving its price up. All things that historical data can&apos;t reflect.
+            Some events that these discrepancies could be accredited to are Macro related. For example, in January of 2023, Amazon (and other tech companies) did some restructuring and laid off about 18,000 workers; also, they pushed out new features for their premium subscription service, Amazon Prime. 
+            Coming into a new year, and given this news, there was seemingly a lot of buzz about the stock, driving its price up. All things that historical data can&apos;t reflect.
             <br/>
             <br/>
             Overall, ARIMA models may not be accurate for long-term trading, but it can be a valuable factor to consider when doing short-term analysis.
