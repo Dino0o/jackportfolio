@@ -4,9 +4,7 @@ import Link from 'next/link'
 export default function Document() {
     return (
       <main
-        className="flex min-h-screen flex-col items-center justify-between pt-24 text-black"
-        style={{ backgroundImage: `url('/mountain.jpg')` }}
-      >
+        className="flex min-h-screen flex-col items-center justify-between pt-24 text-black">
         <div className="bg-white w-5/6 rounded-lg">
   
             <h1 className='m-2 mt-4'><b>Forecasting Time Series with ARIMA</b></h1>

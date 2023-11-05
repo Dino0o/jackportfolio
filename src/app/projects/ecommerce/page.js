@@ -6,7 +6,7 @@ import PDFViewer from '../../components/PDFViewer';
 
 export default function Page() {
  return (
-    <main className="flex min-h-screen flex-col items-center justify-between pt-24 text-black" style={{ backgroundImage: `url('/mountain.jpg')` }}>
+    <main className="flex min-h-screen flex-col items-center justify-between pt-24 text-black">
         <div className="bg-white w-5/6 rounded-lg">
           <h1 className='m-2 mt-4'><b>Mock E-Commerce Site</b></h1>
           <br/>

@@ -3,10 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPython, faRProject } from '@fortawesome/free-brands-svg-icons'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 
-
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between pt-24 text-black" style={{ backgroundImage: `url('/mountain.jpg')` }}>
+    <main className="flex min-h-screen flex-col items-center justify-between pt-24 text-black">
       <div className="border-4 border-r-2 border-white bg-white w-5/6 rounded-lg">
       <br/>
         <div className='text-center font-medium text-3xl'>Hello!</div>

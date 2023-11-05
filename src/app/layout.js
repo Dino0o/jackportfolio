@@ -16,9 +16,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head><meta name="viewport" content="width=device-width, initial-scale=1.0" /></Head>
       <body className={inter.className}>
+        <main style={{ backgroundImage: `url('/mountain.jpg')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
         <NavBar/>
         {children}
+        <br/>
         <FootBar/>
+        </main>
       </body>
     </html>
   )

@@ -103,6 +103,7 @@ function PDFViewer({pdfFileName}) {
           <p>
             &emsp; Page &nbsp;
             <input
+            className="border-solid border-2 border-black"
               type="number"
               min="1"
               max={numPages || 1}
@@ -124,6 +125,7 @@ function PDFViewer({pdfFileName}) {
               Prev
             </button>
           </div>
+          &emsp;
           <div style={{ display: 'flex', flexWrap: 'wrap', maxWidth: '100%' }}>
             <button style={{ flex: '0 0 auto', fontSize: isMobile ? '14px' : '16px', padding: isMobile ? '8px 12px' : '10px 16px' }}
               className='m-auto bg-blue-500 hover-bg-blue-700 text-white font-bold py-2 px-4 rounded w-36'
