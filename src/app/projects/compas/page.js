@@ -18,7 +18,7 @@ export default function Page() {
         <span className='italic' style={{ display: 'inline' }}>H</span>(x) =  -Σ<span className='italic' style={{ display: 'inline' }}>p(x)</span>log<sub>b</sub><span className='italic' style={{ display: 'inline' }}>p(x)</span>
         </div>        
         <br/>to determine how much each attribute (sex, age, decile score [0-10]) holds relevancy in determining recidivism, I
-        create models using decision tree analysis to reflect how COMPAS works. I'll take a look at the accuracy of the overall model and disparities between Caucasians and African Amercians.
+        create models using decision tree analysis to reflect how COMPAS works. I&apos;ll take a look at the accuracy of the overall model and disparities between Caucasians and African Amercians.
         This is a report originally lead by probulica <a style={{color:'blue'}} href="https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm">Propublica</a>.
           </p>
           <br/>
