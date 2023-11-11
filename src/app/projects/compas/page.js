@@ -11,8 +11,8 @@ export default function Page() {
           <h1 className='m-2 mt-4'><b>Detecting Inaccuracies in the COMPAS Prediction Model</b></h1>
           <br/>
           <p className='m-2 indent-4'>This is a project about detecting inaccuracies in the Correctional Offender Management Profiling for Alternative Sanctions (a.k.a. COMPAS). 
-          This system is used to determine if a defendant will be a recidivist, meaning that they&apos;ll reoffend if not provided with appropriate interventions. This model is trained on a database of defendants and is used to predict, based on symptoms it identifies, if someone will be a recidivist or not in a two-year window.
-        Depending on the data its fed, which is arguably biased by their distributions alone, the COMPAS model produces inaccurate predictions respective to different demographic groups. In my report, using the equation for information gain:<br/> 
+          The COMPAS model is used by U.S. courts to determine if a defendant will be a recidivist, meaning that they&apos;ll reoffend if not provided with appropriate interventions. The COMPAS model uses Decision Tree Analysis and is trained on a database of defendants to predict, based on symptoms it identifies, if someone will be a recidivist or not in a two-year window.
+        Depending on the data its fed, which is arguably biased by their distributions alone, the COMPAS model produces inaccurate predictions respective to different demographic groups. In my report, using the equation for information gain:<br/><br/>
         
         <div className='text-center' style={{ whiteSpace: 'nowrap' }}>
         <span className='italic' style={{ display: 'inline' }}>H</span>(x) =  -Σ<span className='italic' style={{ display: 'inline' }}>p(x)</span>log<sub>b</sub><span className='italic' style={{ display: 'inline' }}>p(x)</span>
@@ -26,9 +26,9 @@ export default function Page() {
             See the jupyter notebook report below:
           </p>
           <br/>
-          <PDFViewer pdfFileName="/COMPASAnalysis.pdf" />
+          <PDFViewer pdfFileName="/COMPAS Analysis-Jack DeGesero.pdf" />
           <br/>
-          <Link className="text-blue-600 m-2 flex place-content-evenly" href="/COMPASAnalysis.pdf" target="_blank">Download the PDF!</Link>
+          <Link className="text-blue-600 m-2 flex place-content-evenly" href="/COMPAS Analysis-Jack DeGesero.pdf" target="_blank">Download the PDF!</Link>
           <br/>
         </div>
       </main>
