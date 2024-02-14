@@ -45,6 +45,7 @@ export default function Home() {
           <li>Dean&apos;s List at Montclair State University - Fall 2022</li><br/>
           <li>Dean&apos;s List at Montclair State University - Spring 2023</li><br/>
           <li>Dean&apos;s List at Montclair State University - Summer 2023</li><br/>
+          <li>Dean&apos;s List at Montclair State University - Fall 2023</li><br/>
         </ul>
         </div>
         <br/>
