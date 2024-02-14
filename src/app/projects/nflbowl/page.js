@@ -11,7 +11,7 @@ export default function Page() {
           <h1 className='m-2 mt-4'><b>2024 NFL Big Data Bowl Submission: Using Next Gen Stats to Predict Tackles</b></h1>
           <br/>
           <p className='m-2 indent-4'>Football is a sport sprawling with data. Thanks to the NFL, most data from game scores to positioning data is tracked for sports analysts.
-           Ever since the NFL partnered up with AWS, they've began to utilize machine learning (referred to as next gen stats) to find key insights on the field. Part of this initiative is their NFL Big Data Bowl,
+           Ever since the NFL partnered up with AWS, they&apos;ve began to utilize machine learning (referred to as next gen stats) to find key insights on the field. Part of this initiative is their NFL Big Data Bowl,
            which is a public competition to use machine learning to find hidden insights in NFL Data. I participated in the 2024 competition which required participants to find out the key variables which result in tackling.
            In my report, by using the equation for entropy, I assign information values to determine what are the most relevant factors resulting in a tackle. </p>
           <br/>

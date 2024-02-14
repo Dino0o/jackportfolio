@@ -10,8 +10,8 @@ export default function Page() {
         <div className="bg-white w-5/6 rounded-lg">
           <h1 className='m-2 mt-4'><b>The Importance of Preprocessing - Predicting Intelligence in Dog Breeds</b></h1>
           <br/>
-          <p className='m-2 indent-4'>In this project, I'm using decision tree analysis with entropy to predict intelligence in different dog breeds. By adjusting preprocessing techniques, we can track how the model's accuracy changes.
-           Trying out various methods helps us find the best way to preprocess data for this specific dataset. It's important to remember that what works best here might not work as well for other datasets. Each dataset is unique and requires its own exploration.</p>
+          <p className='m-2 indent-4'>In this project, I use decision tree analysis with entropy to predict intelligence in different dog breeds. By adjusting preprocessing techniques, we can track how the model&apos;s accuracy changes.
+           Trying out various methods helps us find the best way to preprocess data for this specific dataset. It&apos;s important to remember that what works best here might not work as well for other datasets. Each dataset is unique and requires its own exploration.</p>
           <br/>
           <p className='m-2'>
             See the jupyter notebook report below:
