@@ -13,9 +13,8 @@ export default function Home() {
         <div className='text-xl pl-5 font-bold'>Background:</div>
         <br/>
         <div className='pl-5 pr-5 indent-8'>
-        My name is Jack DeGesero. I am 20 years old, and a student at Montclair State University pursuing a BS in Data Science with a Mathematics minor.
-        Currently, I work as a Desktop Technician at my University. I was promoted from the role of Phone Support Technician after working
-        there for about a year. The reason I chose Data Science as my major is because data-driven insights are vital to making informed decisions,
+        My name is Jack DeGesero. I am 21 years old, and a student at Montclair State University pursuing a BS in Data Science with a Mathematics minor (expected a semester early!).
+        Currently, I work as a Data Science Intern with Gill Energy. The reason I chose Data Science as my major is because data-driven insights are vital to making informed decisions,
         improving operations, and fueling innovation. While working as a mananger at my former place of employment, Ralph&apos;s Italian Ices, I was
         exposed to the applications of utilizing data in refining operations. This was accomplished by analyzing sales data to track and calculate average 
         product turnover. From this, I was able to find the target inventory contigent on our storage capacity. Overall, the position exposed me to the
@@ -46,6 +45,8 @@ export default function Home() {
           <li>Dean&apos;s List at Montclair State University - Spring 2023</li><br/>
           <li>Dean&apos;s List at Montclair State University - Summer 2023</li><br/>
           <li>Dean&apos;s List at Montclair State University - Fall 2023</li><br/>
+          <li>Dean&apos;s List at Montclair State University - Spring 2024</li><br/>
+          <li>Dean&apos;s List at Montclair State University - Summer 2024</li><br/>
         </ul>
         </div>
         <br/>
