@@ -15,7 +15,7 @@ export default function Home() {
         <div className='pl-5 pr-5 indent-8'>
         My name is Jack DeGesero, and I am a 21-year-old recent graduate from Montclair State University with a Bachelor of Science in Data Science and a minor in Mathematics.
         Currently, I work as a Data Science Intern at Gill Energy. I chose to pursue Data Science because data-driven insights are essential for making informed decisions, optimizing operations, and driving innovation.
-        While working as a manager at my previous job, Ralph's Italian Ices, I gained firsthand experience in leveraging data to refine business operations. By analyzing sales data, I tracked and calculated average product turnover, allowing me to determine the optimal inventory levels based on storage capacity. This experience introduced me to the power of working with tabular data—and that's when I fell in love with data.
+        While working as a manager at my previous job, Ralph&apos;s Italian Ices, I gained firsthand experience in leveraging data to refine business operations. By analyzing sales data, I tracked and calculated average product turnover, allowing me to determine the optimal inventory levels based on storage capacity. This experience introduced me to the power of working with tabular data—and that&apos;s when I fell in love with data.
         </div>
         <br/>
         <br/>
@@ -45,7 +45,6 @@ export default function Home() {
         <li>Dean&apos;s List at Montclair State University - Spring 2022</li><br/>
         <li>Dean&apos;s List at Montclair State University - Fall 2021</li><br/>
         <li>Industry Certified in Introductory JavaScript at Microsoft (2019)</li><br/>
-
         </ul>
         </div>
         <br/>
