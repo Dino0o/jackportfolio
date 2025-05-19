@@ -11,9 +11,9 @@ export default function Page() {
           <h1 className='m-2 mt-4'><b>Computer Vision Fundamentals: Manual Implementation of K-Nearest Neighbors</b></h1>
           <br/>
           <p className='m-2 indent-4'>This is a manual implementation I made of the popular machine learning model K-Nearest Neighbors. In my project, I create a function that utilizes
-          vectorized statements to calculate the distance between known and unknown data objects. After defining the K nearest objects to examien, we can predict the assignment of an unlabeled data entry.
-          In this application, after training, we feed various measurements of different unidentified letters to classify them to their respective letter group. What I find interesting about this project is that this
-          is how a computer would see and identify letters using a camera.
+          vectorized statements to calculate the distance between known and unknown data objects. After defining a number, K, of nearest objects to examine, we can predict the assignment of an unlabeled data entry based on proximity to known entries.
+          In this application, after training, the model is fed various measurements of unidentified letters to classify them to a letter. What I find interesting about this project is that this
+          is how a computer may see and identify letters using a camera.
         </p>
           <br/>
           <p className='m-2'>
